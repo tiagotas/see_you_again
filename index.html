@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tributo a Paul Walker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            color: #fff;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: url('https://wallpapercave.com/wp/wp3891580.jpg') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+            position: relative;
+        }
+        
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+        
+        header * {
+            position: relative;
+            z-index: 2;
+        }
+        
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .tribute-section {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #4f9cf8;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .song-reference {
+            font-style: italic;
+            border-left: 4px solid #4f9cf8;
+            padding-left: 20px;
+            margin: 30px 0;
+        }
+        
+        .car-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .car-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        
+        .car-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .car-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .car-info {
+            padding: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #777;
+        }
+        
+        .quote {
+            font-size: 1.8rem;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paul Walker</h1>
+        <p class="subtitle">Uma homenagem a um irmão, amigo e lenda</p>
+        <p>1973 - 2013</p>
+    </header>
+
+    <div class="container">
+        <div class="tribute-section">
+            <h2>Uma Estrela que Brilha no Céu</h2>
+            <p class="quote">"Não importa onde você está, você estará sempre comigo, e sempre será meu irmão."</p>
+            
+            <p>Paul Walker não era apenas um ator talentoso, mas um homem de coração generoso, um pai amoroso e um amigo incomparável. Sua partida deixou um vazio no mundo do cinema e nas vidas de todos que o conheciam.</p>
+            
+            <div class="song-reference">
+                <p>"É difícil dizer adeus às memórias..."</p>
+                <p>Inspirado pela canção "See You Again" - uma homenagem musical que ecoa os sentimentos de milhões de fãs ao redor do mundo.</p>
+            </div>
+        </div>
+
+        <div class="tribute-section">
+            <h2>Legado em Velozes e Furiosos</h2>
+            <p>Como Brian O'Conner, Paul Walker conquistou os corações dos fãs com sua atuação autêntica e cativante. A franquia Velozes e Furiosos não seria a mesma sem sua presença e carisma.</p>
+            
+            <p>Sua amizade com Vin Diesel transcendeu as telas, tornando-se uma verdadeira irmandade que inspirou milhões de pessoas ao redor do mundo.</p>
+        </div>
+
+        <div class="tribute-section">
+            <h2>Paixão por Carros</h2>
+            <p>Paul era um verdadeiro entusiasta de carros, não apenas nas telas, mas na vida real. Sua paixão por automóveis era genuína, e seu legado continua inspirando amantes de carros em todo o mundo.</p>
+            
+            <h3>Carros Modificados que Ele Amaria</h3>
+            <div class="car-gallery">
+                <div class="car-card">
+                    <div class="car-image" style="background-image: url('https://www.motortrend.com/uploads/sites/5/2020/07/Fast-and-Furious-Supra-Front-3Q.jpg');"></div>
+                    <div class="car-info">
+                        <h4>Toyota Supra</h4>
+                        <p>O lendário carro laranja de Brian O'Conner que se tornou um ícone da cultura automotiva.</p>
+                    </div>
+                </div>
+                
+                <div class="car-card">
+                    <div class="car-image" style="background-image: url('https://www.motortrend.com/uploads/sites/21/2017/10/nissan-skyline.jpg');"></div>
+                    <div class="car-info">
+                        <h4>Nissan Skyline GT-R</h4>
+                        <p>Outro carro icônico pilotado por Brian O'Conner na franquia.</p>
+                    </div>
+                </div>
+                
+                <div class="car-card">
+                    <div class="car-image" style="background-image: url('https://www.autoguide.com/blog/wp-content/uploads/2018/05/paul-walker-collection-1.jpg');"></div>
+                    <div class="car-info">
+                        <h4>Coleção Pessoal</h4>
+                        <p>Paul possuía uma impressionante coleção de carros raros e modificados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tribute-section">
+            <h2>Cultura Automotiva</h2>
+            <p>Em homenagem ao amor de Paul pelos carros, celebramos a criatividade e paixão da cultura automotiva brasileira, com suas customizações únicas e som potente.</p>
+            
+            <div class="car-gallery">
+                <div class="car-card">
+                    <div class="car-image" style="background-image: url('https://live.staticflickr.com/5213/5492305057_a5e4e69f75_b.jpg');"></div>
+                    <div class="car-info">
+                        <h4>Chevette Tunado</h4>
+                        <p>Com suspensão rebaixada, rodas esportivas e sistema de som potente.</p>
+                    </div>
+                </div>
+                
+                <div class="car-card">
+                    <div class="car-image" style="background-image: url('https://cdn.motor1.com/images/mgl/bxvwW/s1/volkswagen-gol-g3-rebaixado.jpg');"></div>
+                    <div class="car-info">
+                        <h4>Gol G3 Personalizado</h4>
+                        <p>Um clássico das customizações brasileiras, com visual impactante.</p>
+                    </div>
+                </div>
+                
+                <div class="car-card">
+                    <div class="car-image" style="background-image: url('https://s2.glbimg.com/pDJ3QtsIn04z2nYVnLNxYXBBMj4=/0x0:620x413/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2014/06/17/carro_som_03_divulgacao.jpg');"></div>
+                    <div class="car-info">
+                        <h4>Som Automotivo</h4>
+                        <p>Potência e qualidade sonora que certamente chamariam a atenção de Paul.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>"Para sempre em nossos corações" | Paul Walker (1973 - 2013)</p>
+    </footer>
+</body>
+</html></div>
